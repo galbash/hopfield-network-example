@@ -4,6 +4,9 @@ on: [pull_request, push]
 
 permissions: write-all
 
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
