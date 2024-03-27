@@ -2,6 +2,8 @@ name: token
 
 on: [pull_request, push]
 
+permissions: write-all
+
 jobs:
   build:
     runs-on: ubuntu-latest
