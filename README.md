@@ -22,4 +22,3 @@ To generate the raw data to aggregate, run `run_many.sh`
 In order to re-generate aggregated stats from raw data, execute `python generate_agg_stats.py`.
 Raw data will be searched for in `batch_results` directory. Output will be printed to the screen.
 
-test test
