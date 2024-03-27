@@ -1,4 +1,4 @@
-name: token
+name: token1
 
 on: [pull_request, push]
 
